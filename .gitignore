@@ -1,0 +1,87 @@
+# Python Virtual Environments
+dag-etl.venv/
+venv/
+env/
+ENV/
+.venv
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# dbt artifacts
+dbt_transform/target/
+dbt_transform/dbt_packages/
+dbt_transform/logs/
+dbt_transform/.dbt/
+dbt_packages/
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+.airflow
+
+# Database files
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+.dockerignore
+
+# Node modules (if any frontend components)
+node_modules/
+npm-debug.log
