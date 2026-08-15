@@ -1,0 +1,7 @@
+dbt_transform:
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/project_root/local_warehouse.duckdb
+      threads: 4
+  target: dev
